@@ -1,0 +1,100 @@
+/*header titre*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+#titre2{
+    text-transform:uppercase;
+    text-align: center;
+    color: #0db870;
+    background-size: auto;
+    font-size: 45px;
+    font-family: 'Oswald', sans-serif;
+    
+    
+}
+
+.navbar{
+    position: absolute;
+   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.navbar .logo{ 
+    font-size: 2em;
+    font-size: bold;
+    color: rgb(18, 197, 173);
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.navbar .nav-links ul {
+    display: flex;
+}
+.navbar .nav-links ul li {
+    margin: 25px;
+    list-style: none;
+}
+.navbar .nav-links ul li.titre1 a {
+    color: #0db870;
+    font-size: bold;
+    font-size: 20px;
+
+}
+.navbar .nav-links ul li a {
+    color: #0db870;
+    font-size: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.button{
+    background-color: rgb(202, 16, 171);
+}
+#choix{
+    color: #0db870;
+}
+.acceuil{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: aliceblue ;
+    color: #0db870;
+}
+.propos{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: aliceblue ;
+    color: #0db870;
+}
+.travail{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: aliceblue ;
+    color: #0db870;
+}
+.cv{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: aliceblue ;
+    color: #0db870;
+}
+.contact{
+    text-align: center;
+    font-size: 20px;
+    text-transform:uppercase;
+    background-color: aliceblue ;
+    color: #0db870;
+}
+.foot{
+    text-align: end;
+}
+.info{
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+}
+
